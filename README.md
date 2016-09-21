@@ -9,9 +9,23 @@
 
 ## web应用站点
 192.168.0.203:8001  www.abc.com
+
 192.168.0.203:8002  www.a.com
+
 192.168.0.203:8003  www.b.com
+
 192.168.0.203:8004  www.c.com
+
+## 需求
+主站 abc.com
+
+二级域名给租户  a.abc.com 302 a.com
+租户域名  
+a.com
+
+b.com
+
+c.com
 
 ## Hosts文件
 192.168.0.225    www.abc.com   
