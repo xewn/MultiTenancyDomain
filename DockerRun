@@ -1,0 +1,5 @@
+#nginx配置
+配置目录下的所有文件放在主机的/usr/local/webroot/nginx/conf目录内
+#docker 启动
+docker run -it -p 80:80 -v /usr/local/webroot/nginx/conf:/usr/local/openresty/nginx/conf openresty/openresty
+openresty的容器，直接使用docker hub上的官方生成版本
